@@ -65,7 +65,7 @@ public class ApplicationFrame extends JFrame implements MouseWheelListener, Mous
         {
             try
             {
-                Thread.sleep(500);
+                Thread.sleep(1);
             } catch (InterruptedException e)
             {
                 throw new RuntimeException(e);
